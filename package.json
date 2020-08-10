@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "ts-to-uml",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -21,6 +21,7 @@
     "@angular/router": "~10.0.6",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
+    "typescript-parser": "^2.6.1",
     "zone.js": "~0.10.3"
   },
   "devDependencies": {

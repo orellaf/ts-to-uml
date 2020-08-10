@@ -1,0 +1,15 @@
+<div *ngIf="umlData" class="umlClass">
+    <h2>{{umlData.className}}</h2>
+    <hr>
+    <ul>
+        <li *ngFor="let attr of attributes">{{attr.name}}&nbsp;:&nbsp;{{attr.type}}</li>
+    </ul>
+    <hr>
+    <ul>
+        <li *ngFor="let method of umlData.methods">
+            {{method.name}}
+            <span *ngIf="method.params !== ''">({{method.params}})</span>
+            <span *ngIf="method.type !== ''">&nbsp;:&nbsp;{{method.type}}</span>
+        </li>
+    </ul>
+</div>
