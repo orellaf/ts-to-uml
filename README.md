@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 see the file **Visualisateur UML.PDF** for the specification.
 
-input:
+input file (src/assets/person.ts):
 
 ```typescript
 
